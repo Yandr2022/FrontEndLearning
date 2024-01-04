@@ -42,6 +42,7 @@ nav {
     height: 640px;
     background: url(../img/01-Картинка-фона.jpg) center/cover;
     position: relative;
+    margin-bottom: 20px;
 }
 
 .section-about_block {
@@ -64,12 +65,45 @@ nav {
     padding: 17px 0 0 28px;
     text-align: left;
 }
+
 .section-about_title{
     font-size: 36px;
     margin: 0;
     margin-bottom: 9px;
 }
+
 .section-about_text{
     font-size: 12px;
     margin: 0;
 }
+
+.section-description__icon-box{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.section-description__icon-box img{
+    margin-right: 76px;
+}
+
+.section-description__icon-box img:last-child{
+    margin-right: 0;
+}
+
+.section-description__title{
+    font-size: 96px;
+    margin: 0;
+    text-align: center;
+}
+.red{
+    color: #f15b40;
+}
+
+.section-description__text-box p{
+   width: 1000px;
+   font-size: 18px;
+   text-align: center; 
+   margin: 0px;
+   margin: 0 auto;
+}
+
